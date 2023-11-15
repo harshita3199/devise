@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 #Created new branch develop through main/master
+#2.created a feature branch harshita_feature1
 # All Devise controllers are inherited from here.
 class DeviseController < Devise.parent_controller.constantize
   include Devise::Controllers::ScopedViews
